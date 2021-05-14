@@ -11,6 +11,9 @@ python demo2.py
 #展示散点图，可调整散点图的点和x轴
 python demo9.py
 
+#保存为HTML
+python demo7.py
+
 ```
 
 更多说明：https://blog.csdn.net/geeklevin/article/details/116810226
