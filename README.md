@@ -20,8 +20,10 @@ pip uninstall -r lectureID/requirements.txt
 
 ## Visualization 可视化
 [01 Bokeh](lecture01/bokeh.md)
+[02 Matplotlib](lecture02/matplotlib.md)
+
 
 To be continue
-[02 matplotlib](lecture02/matplotlib)
+[03 matplotlib](lecture03/matplotlib)
 
 
