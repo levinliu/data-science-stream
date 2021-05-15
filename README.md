@@ -11,6 +11,9 @@ source .venv/bin/active
 
 #Choose the lecture and run below 
 pip install -r lecture01/requirements.txt
+
+#Uninstall one lecture's requirements lib
+pip uninstall -r lectureID/requirements.txt
 ```
 
 ## The most fundermental sections 基础系列
