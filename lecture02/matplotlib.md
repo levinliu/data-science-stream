@@ -52,4 +52,10 @@ ImportError: Failed to import any qt binding
 使用pip install PyQt5
 参考：https://stackoverflow.com/questions/52346254/importerror-failed-to-import-any-qt-binding-python-tensorflow
 
+### 横轴跟纵轴长度不一样会出现以下错误, 调整到长度一致即可
 
+File "/Users/mac/python/datas/data-science-stream/.venv/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 501, in _plot_args
+
+    raise ValueError(f"x and y must have same first dimension, but "
+
+ValueError: x and y must have same first dimension, but have shapes (5,) and (7,)
