@@ -26,4 +26,5 @@ pip uninstall -r lectureID/requirements.txt
 To be continue
 [03 matplotlib](lecture03/matplotlib)
 
-
+# GitHub
+[star](https://github.com/levinliu/data-science-stream)
