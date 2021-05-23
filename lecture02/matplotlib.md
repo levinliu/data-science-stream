@@ -54,8 +54,21 @@ ImportError: Failed to import any qt binding
 
 ### 横轴跟纵轴长度不一样会出现以下错误, 调整到长度一致即可
 
+Error:
 File "/Users/mac/python/datas/data-science-stream/.venv/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 501, in _plot_args
 
     raise ValueError(f"x and y must have same first dimension, but "
 
 ValueError: x and y must have same first dimension, but have shapes (5,) and (7,)
+
+Fix: change the x and y dimension data to have same shapes
+
+### Glyph XXXXX missing from current font
+
+当前默认的字体库不支持支持中文显示
+
+Error:
+backend_agg.py:240: RuntimeWarning: Glyph 40644 missing from current font.
+
+Fix:
+change to the fonts that support chinese, like Aria
