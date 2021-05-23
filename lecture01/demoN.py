@@ -11,7 +11,9 @@ p = figure(title="PriceIndicator", x_axis_label="x", y_axis_label="y")
 p.line(x, y1, legend_label="铂金", line_width=2, line_color='green')
 p.line(x, y2, legend_label="黄金", line_width=2, line_color='blue')
 
-y3 = [66.9, 66.7, 52.2, 62.2, 54,8, 55.0, 61.0]
+#BokehUserWarning: ColumnDataSource's columns must be of the same length. Current lengths: ('x', 7), ('y', 8)
+#y3 = [66.9, 66.7, 52.2, 62.2, 54,8, 55.0, 61.0]
+y3 = [66.9, 66.7, 52.2, 62.2, 54.8, 55.0, 61.0]
 p.line(x, y3, legend_label="白银", line_width=2, line_color='red')
 #show the results
 show(p)
