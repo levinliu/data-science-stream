@@ -19,8 +19,8 @@ pip uninstall -r lectureID/requirements.txt
 ## The most fundermental sections 基础系列
 
 ## Visualization 可视化
-[01 Bokeh](lecture01/bokeh.md)
-[02 Matplotlib](lecture02/matplotlib.md)
+- [01 Bokeh](lecture01/bokeh.md)
+- [02 Matplotlib](lecture02/matplotlib.md)
 
 
 To be continue
