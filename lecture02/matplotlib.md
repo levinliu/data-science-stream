@@ -1,12 +1,32 @@
 # Matplotlib 分享
 
+## 安装后快速使用
 ```sh
-python demo01.py
+python demo.py
+```
+
+## 定制并绘制一条折线图
+```sh
+python demo1.py
+```
+## 绘制多条折线图
+```sh
+python demoN.py
+```
+
+## 绘制多款散点图
+```sh
+python demo_scatter.py
+```
+
+## 切换backend
+```sh
+python demo_bkend.py
 ```
 
 ## 可能出现的问题
 ```python
-(.venv) ➜  lecture02 git:(main) ✗ python demo01.py 
+(.venv) ➜  lecture02 git:(main) ✗ python demo0.py 
 Traceback (most recent call last):
   File "demo01.py", line 1, in <module>
     import matplotlib.pyplot as plt
